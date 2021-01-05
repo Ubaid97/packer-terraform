@@ -11,7 +11,6 @@ provider "aws" {
 resource "aws_instance" "nodejs_instance" {
 
 	ami = var.ami-nodeapp
-	#ami = "ami-09b9e380df60300c8"
 	instance_type = var.instance-type
 	associate_public_ip_address = true
 	tags = {
@@ -23,7 +22,6 @@ resource "aws_instance" "nodejs_instance" {
 resource "aws_instance" "mongodb_instance" {
 
         ami = var.ami-mongodb
-        #ami = "ami-09b9e380df60300c8"
         instance_type = var.instance-type
         associate_public_ip_address = true
         tags = {
