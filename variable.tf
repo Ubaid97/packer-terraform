@@ -22,3 +22,19 @@ variable "devops-vpc-id" {
 	default = "vpc-07e47e9d90d2076da"
 
 }
+
+variable "ubaid-vpc-id" {
+	default = "vpc-03223e2af9c10ef89"
+}
+
+variable "ubaid-public-subnet-id" {
+	default = "subnet-07fc0bec1e2249690"
+}
+
+variable "working-app-ami-id" {
+	default = "ami-0651ff04b9b983c9f"
+}
+
+variable "nodeapp-sg" {
+	default = "sg-0c3a6ac6413b2efda"
+}
